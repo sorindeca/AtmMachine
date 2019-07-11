@@ -99,14 +99,6 @@ public class ATM {
 
         balance = (tip1 - one) + (tip5 - five) * 5 + (tip10 - ten) * 10 + (tip50 - fifty) * 50 + (tip100 - hundred) * 100;
 
-        //System.out.println("New balance: " + balance);
-        /*
-        System.out.println("Banknotes of 100 left: " + (tip100 - hundred));
-        System.out.println("Banknotes of 50: " + (tip50 - fifty));
-        System.out.println("Banknotes of 10: " + tip10);
-        System.out.println("Banknotes of 5: " + tip5);
-        System.out.println("Banknotes of 1: " + tip1);
-         */
     }
 
     private static void numberOfBanknotes(int amount) {
